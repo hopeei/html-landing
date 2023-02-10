@@ -1,0 +1,24 @@
+.header {
+    padding: 5px;
+    background-color: greenyellow;
+
+}
+.tutik {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.nav__menu {
+    text-decoration: none;
+}
+@media(min-width: 500px) { 
+    .nav__menu{
+        flex:1;
+    }
+
+}
+.photo{
+    background-image: linear-gradient(rgba0(0,0,0,5), rgba(0,0,0,5)) url(../img/Emblem.png);
+    background-size: cover;
+    background-position: center;
+}
