@@ -1,0 +1,22 @@
+.nun {
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: var(--font-color-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.renthen {
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: var(--font-color-white);
+    display: block;
+}
+
+@media(min-width: 500px) {
+    .nun {
+        flex-direction: row;
+    }
+}

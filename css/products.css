@@ -1,9 +1,0 @@
-.incognito{
-    border: 1px soild var(--accent-color);
-    padding: 5px;
-}
-@media (min-width: 500px){
-    .incognito__drones{
-        display: grid;
-    }
-}

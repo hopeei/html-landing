@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap%27');
 
 * {
     margin: 0;
@@ -7,12 +8,15 @@
 }
 
 :root {
-    --text-color: black;
-    --accent-color: #a6c7cf;
-    font-size: 18px;
+    --font-color-black: #1C1D1E;
+    --font-color-gray: #515151;
+    --font-color-bright-gray: #f0f0f0;
+    --font-color-cyan: #0ad19d;
+    --font-color-white: #fff;
+    --font-color-light-gray: #C5C5C5;
+    --font-family-paragraph: 'Lato', sans-serif;
+    --font-family-header: 'Fjalla One', sans-serif;
     scroll-behavior: smooth;
-    font-family: 'DotGothic16', sans-serif;
-    color: var(--text-color);
 }
 
 .container {
@@ -23,8 +27,4 @@
 img {
     display: block;
     width: 100%;
-}
-
-h2 {
-    margin-left: 5px;
 }

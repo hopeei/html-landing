@@ -1,4 +1,3 @@
-@import url(commons.css)
-@import url(header.css)
-@import url(products.css)
-@import url(controls.css)
+@import url(commons.css);
+@import url(about.css);
+@import url(footer.css);
