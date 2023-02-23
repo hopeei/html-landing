@@ -11,22 +11,24 @@
 </head>
 
 <body>
-  <header>
-    <h1>Home</h1>
-    <div class="container">
-      <a href="/" class="logo">Menu</a>
-      <nav class="nav__menu">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Information</a></li>
-          <li><a href="">Contacts</a></li>
+  <header class="header">
+    <nav class="header__nav">
+      <div class="navigation-burger">
+        <span></span>
+      </div>
+      <div class="header__burger" id="home">Home</div>
+      <div class="header__menu-container">
+        <ul class="heder__menu">
+          <li class="header__menu-item"><a class="header__menu-link" href="#about">About</a></li>
+          <li class="header__menu-item"><a class="header__menu-link" href="#home">Home</a></li>
+          <li class="header__menu-item"><a class="header__menu-link" href="#">Information</a></li>
+          <li class="header__menu-item"><a class="header__menu-link" href="#">Contacts</a></li>
         </ul>
-      </nav>
-    </div>
-
+      </div>
+    </nav>
   </header>
   <main>
-    <section class="about">
+    <section class="about" id="about">
       <div class="about__drones-photo">
         <img class="about__dron" src="img/icons-dron-ocean.png" alt="Drone">
       </div>
@@ -42,11 +44,11 @@
           can
           rent drones for permanent tracking of a moving object.Striker Drones offers different models of devices with
           different ranges of signal reception distance - from several tens of meters to 6.5 kilometers.</span>
-          <div class="about-carousel">
-            <div class="about-carousel__slides">
-            </div>
+        <div class="about-carousel">
+          <div class="about-carousel__slides">
           </div>
-          <div class="about__addition">
+        </div>
+        <div class="about__addition">
           <div class="about__numbers">
             <p class="about__content">58</p>
             <p class="about__available">Drones Available</p>
@@ -67,6 +69,7 @@
 
   </footer>
   <script src="js/about-sliders.js"></script>
+  <script src="js/burger-menu.js"></script>
 </body>
 
 </html>
