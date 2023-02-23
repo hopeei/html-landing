@@ -1,26 +1,26 @@
 (function(){
  
-const slides = [
-    '<div>Details</div>',
-    '<div>Statistic</div>',
-    '<div>OF</div>',
+const elements = [
+    '<div>Detailed</div>',
+    '<div>Statistics</div>',
+    '<div>About</div>',
     '<div>Drones</div>'
 ];
   
    let currentSlide = 0;
 
-   function renderSlides(slides) {
+   function renderSlides(elements) {
      const slidersContainer = document.querySelector('.about-carousel__slides');
-     slidersContainer.innerHTML = slides[currentSlide];
+     slidersContainer.innerHTML = elements[currentSlide];
    } 
 
    function nextSlide() {
-    currentSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
-    renderSlides(slides);
+    currentSlide = currentSlide + 1 >= elements.length ? 0 : currentSlide + 1;
+    renderSlides(elements);
    }
 
    setInterval(nextSlide, 2000);
 
-   renderSlides(slides);
+   renderSlides(elements);
 
 })();
